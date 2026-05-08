@@ -1,16 +1,74 @@
-# React + Vite
+# 🧠 React Flashcard App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive flashcard app built using React. Click on a card to reveal the answer, and click again to hide it.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 📌 Displays multiple flashcards in a grid layout
+* 🔄 Click to toggle between question and answer
+* 🎯 Uses React state (`useState`) for interaction
+* 💡 Clean and minimal UI using CSS Grid & Flexbox
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React (Vite)
+* JavaScript (ES6)
+* CSS (Flexbox + Grid)
+
+---
+
+## 📸 Preview
+
+* Blue cards → Questions
+* Green cards → Answers (after clicking)
+
+---
+
+## ⚙️ How It Works
+
+* Each flashcard has a unique `id`
+* Clicking a card updates the active state
+* If the same card is clicked again, it toggles back
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── App.jsx
+ ├── main.jsx
+ ├── index.css
+```
+
+---
+
+## 🧪 Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 💡 What I Learned
+
+* Managing state using `useState`
+* Conditional rendering in React
+* Handling click events
+* Structuring components and styling
+
+---
+
+## 📌 Author
+
+**Rupam Ash**
+
+---
+
+⭐ If you like this project, consider giving it a star!

@@ -1,16 +1,118 @@
-# React + Vite
+# 📝 React To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive To-Do application built using React.
+This project focuses on learning React fundamentals such as state management, component structure, event handling, conditional rendering, and working with arrays.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* ➕ Add new todos
+* ✅ Mark tasks as completed
+* ❌ Delete tasks
+* 📊 Track completed task percentage
+* ✨ Conditional styling for completed tasks
+* 🔄 Real-time UI updates using React state
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript (ES6)
+* CSS
+* Vite
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+ ├── components/
+ │    ├── Display.jsx
+ │    ├── Form.jsx
+ │    └── Summary.jsx
+ │
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+## ⚙️ How It Works
+
+### Add Todo
+
+Users can add tasks through the input form.
+
+### Toggle Todo
+
+Checkboxes allow users to mark tasks as completed.
+
+### Delete Todo
+
+Tasks can be removed using the ❌ button.
+
+### Summary Section
+
+Displays:
+
+* total tasks
+* completed percentage
+* remaining tasks
+
+---
+
+## 🧠 Concepts Practiced
+
+* `useState`
+* Controlled inputs
+* Props
+* Event handling
+* Conditional rendering
+* Array methods:
+
+  * `map()`
+  * `filter()`
+* Immutable state updates
+* Dynamic styling
+
+---
+
+## ▶️ Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 📸 Features Preview
+
+* Completed tasks show a **line-through effect**
+* Interactive checkbox functionality
+* Live task progress tracking
+
+---
+
+## 💡 What I Learned
+
+This project helped me understand:
+
+* How React state updates trigger UI changes
+* How to structure components properly
+* How to work with dynamic lists in React
+* How to pass and use props effectively
+
+---
+
+## 📌 Author
+
+**Rupam Ash**
+
+---
+
+⭐ If you found this project interesting, feel free to star the repository.
