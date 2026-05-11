@@ -13,7 +13,7 @@ return (
 <footer>
     {percentageTodo === 100 ? <p className="footer-text">You hav ecompleted all the task 😊</p> : <p className="footer-text"><strong>{completeTodo}</strong> task done and you have completed <strong>{percentageTodo}%</strong>tasks</p>}
 <div className="delete-btn-class" >
-    <button className="delete-btn" onClick={clearButton}>clear all TODO</button>
+    <button className="delete-btn" onClick={clearButton}>CLEAR ALL TODO</button>
     </div>
 </footer>
 )
